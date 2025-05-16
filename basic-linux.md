@@ -1,7 +1,7 @@
 ## Note For Basic Linux
 ### Server  
 What is a server?
-- Software, hardware rhat provides specific service 
+- Software, hardware that provides specific service 
 
 * Server, Client
 - Client makes request to server - Server provides service to client (response)
