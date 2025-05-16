@@ -1,4 +1,4 @@
-## Note For Basic Lunix
+## Note For Basic Linux
 ### Server  
 What is a server?
 - Software, hardware rhat provides specific service 
