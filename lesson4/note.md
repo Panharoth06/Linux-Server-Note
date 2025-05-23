@@ -21,6 +21,9 @@ groups dara # Show joining group of user “dara”
 sudo deluser dara sudo # Delete user “dara” from group “sudo”
 sudo delgroup new-dara # Delete group “new-dara”
 ```
+_____________________________________________________________
+
+UNIX -> Linux
 
 * Linux is multi-user operating system
 1. Ownwership ( user, group, other ) 
@@ -42,3 +45,12 @@ Try to avoid - sudo chmod 777 filename.txt
 
 
 *** Virtualization ( VMware, Virtual Bix ) vs Containerization ( Docker ) ?
+
+```bash
+sudo usermod -aG sudo username
+sudo username -aG group-name $(whoami)
+
+# to add additional priviledge 
+sudo visudo
+# e.g, james ALL=(ALL:ALL) NOPASSWD:ALL
+```
