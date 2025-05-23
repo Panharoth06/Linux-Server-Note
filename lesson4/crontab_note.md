@@ -32,7 +32,8 @@ echo "$(date)" >> daily-log.txt
 
 crontab -e
 
-*/1 * * * *
+# every minute
+*/1 * * * * /home/user/shellscript-demo.sh # path to the script
 ```
 ___________________________________________________________
 
