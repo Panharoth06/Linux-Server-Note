@@ -21,15 +21,25 @@ crontab -e # to create a new cron job
 cat /etc/crontab 
 ```
 
+# exmaple
 ```bash
 vim shellscript-demo.sh
 
 #!/bin/bash
-echo "$(date)" >> daily-log.txt #example
+echo "$(date)" >> daily-log.txt
 
 #ESC -> :wq!
 
 crontab -e
 
 */1 * * * *
+```
+___________________________________________________________
+
+```bash
+vim file-name.sh
+sudo chmod +x file-name.sh # enable to execute 
+
+more file-name.txt
+watch more file-name.txt
 ```
